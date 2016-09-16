@@ -10,8 +10,7 @@
     "build": "npm run clean && babel -d lib src/",
     "test": "node node_modules/.bin/babel-tape-runner test/index.js | node_modules/.bin/tap-spec",
     "test-cov": "babel-node node_modules/.bin/babel-istanbul cover test/index.js --report html",
-    "postinstall": "npm run build",
-    "prepublish": "npm run build && npm run test"
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">=6.0.0"
