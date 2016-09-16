@@ -1,0 +1,12 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 80
+  },
+  "nexmo": {
+    "apiKey": "YOUR NEXMO API KEY",
+    "apiSecret": "YOUR NEXMO API SECRET",
+    "applicationId": "YOUR NEXMO APP ID",
+    "privateKey": "YOUR NEXMO PRIVATE KEY PATH"
+  }
+}

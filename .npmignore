@@ -1,0 +1,5 @@
+# do not push source files via NPM
+examples/
+test-run/
+test/
+.temp/
